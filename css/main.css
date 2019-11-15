@@ -31,6 +31,7 @@ section div {
   flex-direction: column;
   justify-content: space-between;
   padding: .75rem;
+  font-size: 1rem;
 }
 
 .content p {
@@ -48,9 +49,13 @@ h3 {
 }
 
 img {
-  width: 6.25rem;
+  width: 100%;
   display: block;
   margin: 0 auto;
+}
+
+.content img {
+  width: 100px;
 }
 
 div:nth-child(1) {
